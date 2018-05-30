@@ -3,23 +3,28 @@
 <head>
   <meta charset="UTF-8"/>
   <title></title>
-  <style>
-    .show {
-      width: 400px;
-      height: 400px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="show" href="images/big.jpg">
-    <img src="images/small.png">
+  <div class="show" href="images/p4.png">
+    <img src="images/p4.png" id="show-img">
   </div>
-
+  <div class="small-img">
+    <img src="images/online_icon_right@2x.png" class="icon-left" alt="" id="prev-img">
+    <div class="small-container">
+      <div id="small-img-roll">
+        <img src="images/p4.png" class="show-small-img" alt="">
+        <img src="images/p3.jpg" class="show-small-img" alt="">
+        <img src="images/p6.jpg" class="show-small-img" alt="">
+        <img src="images/p5.jpg" class="show-small-img" alt="">
+        <img src="images/p2.jpg" class="show-small-img" alt="">
+        <img src="images/p1.jpg" class="show-small-img" alt="">
+      </div>
+    </div>
+    <img src="images/online_icon_right@2x.png" class="icon-right" alt="" id="next-img">
+  </div>
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/zoom-image.js"></script>
-
-  <script>
-    $('.show').zoomImage();
-  </script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
