@@ -1,5 +1,5 @@
 /**
- * by lwl
+ * by MonsterDuang
  */
 ;(function($) {
     /**
