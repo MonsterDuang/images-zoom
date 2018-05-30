@@ -14,7 +14,4 @@ $('.show').zoomImage({
 });
 ```
 
-#### 效果图
-![image](https://raw.githubusercontent.com/ekoooo/images-zooming/master/screenshots/01.png)
-
-![image](https://raw.githubusercontent.com/ekoooo/images-zooming/master/screenshots/02.png)
+#### [DEMO](https://monsterduang.github.io/images-zoom/)
