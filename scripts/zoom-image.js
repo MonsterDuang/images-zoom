@@ -13,7 +13,7 @@
         var defaultParas = {
             layerW: 100, // 遮罩宽度
             layerH: 100, // 遮罩高度
-            layerOpacity: 0.5, // 遮罩透明度
+            layerOpacity: 0.2, // 遮罩透明度
             layerBgc: '#000', // 遮罩背景颜色
             showPanelW: 500, // 显示放大区域宽
             showPanelH: 500, // 显示放大区域高
@@ -57,7 +57,8 @@
                 backgroundColor: paras.layerBgc,
                 width: paras.layerW,
                 height: paras.layerH,
-                opacity: paras.layerOpacity
+                opacity: paras.layerOpacity,
+                border: '1px solid #ccc'
             });
 
             // 放大区域
