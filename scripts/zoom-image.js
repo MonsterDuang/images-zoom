@@ -58,7 +58,8 @@
                 width: paras.layerW,
                 height: paras.layerH,
                 opacity: paras.layerOpacity,
-                border: '1px solid #ccc'
+                border: '1px solid #ccc',
+                cursor: 'crosshair'
             });
 
             // 放大区域
